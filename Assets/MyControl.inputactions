@@ -1,0 +1,79 @@
+{
+    "name": "MyControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a449feba-fcf3-42ba-af56-2e5ff6912710",
+            "actions": [
+                {
+                    "name": "ClickToMove",
+                    "type": "Button",
+                    "id": "071c2915-1715-4d74-a5fb-136de1f09bd6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MovePosition",
+                    "type": "Value",
+                    "id": "3bb4eb2a-18d3-4a64-835b-a87e0b8d6074",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d827d44b-3b6c-4385-8055-82c48d9be264",
+                    "path": "<VirtualMouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7d580e3-ac9b-41a4-8a55-60a7e4254a7e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickToMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "069142b4-7c4d-401b-9b1d-d0bd330357a4",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "1b975825-c9cc-403b-99fa-16f4d1044926",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "76c19480-93e8-41c6-898e-30dfb507836c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
